@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cravatto - Sciarpe di cravatte cucite a mano</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cravatto</h1>
+      <nav>
+        <ul>
+          <li><a href="#features">Caratteristiche</a></li>
+          <li><a href="#products">Prodotti</a></li>
+          <li><a href="#about">Chi siamo</a></li>
+          <li><a href="#contact">Contatti</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="features">
+        <h2>Le nostre cravatte cucite a mano</h2>
+        <p>
+          Cravatto offre cravatte cucite a mano di alta qualità, trasformate in
+          sciarpe uniche ed eleganti. Ogni scialle è realizzato con cura e attenzione ai
+          dettagli, utilizzando solo materiali di prima scelta.
+        </p>
+      </section>
+      <section id="products">
+        <h2>Prodotti disponibili</h2>
+        <ul>
+          <li>Sciarpe in lana</li>
+          <li>Sciarpe in seta</li>
+          <li>Sciarpe con motivi</li>
+        </ul>
+      </section>
+      <section id="about">
+        <h2>Chi siamo</h2>
+        <p>
+          Cravatto è un'azienda che si dedica alla creazione di sciarpe di cravatte
+          cucite a mano di alta qualità. Siamo orgogliosi di offrire prodotti unici e
+          fatti a mano con amore.
+        </p>
+      </section>
+      <section id="contact">
+        <h2>Contattaci</h2>
+        <form action="submit-form">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Messaggio:</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Invia</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Cravatto</p>
+    </footer>
+  </body>
+</html>
